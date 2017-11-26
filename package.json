@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "compile-rust-wasm": "rustc +nightly --target wasm32-unknown-unknown --crate-type=cdylib -O add.rs",
     "start:dev": "webpack-dev-server"
   },
   "author": "",
